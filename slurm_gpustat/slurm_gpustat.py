@@ -29,7 +29,7 @@ from beartype import beartype
 
 
 # SLURM states which indicate that the node is not available for submitting jobs
-INACCESSIBLE = {"drain*", "down*", "drng", "drain", "down"}
+INACCESSIBLE = {"drain*", "down*", "drng", "drain", "down", "down~"}
 INTERACTIVE_CMDS = {"bash", "zsh", "sh"}
 
 
